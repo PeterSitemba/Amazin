@@ -1,0 +1,1108 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/bFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:text="@string/btn_finish"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMenPantSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutQthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:text="@string/question_four_men"
+                    android:textColor="@color/colorTextHeader"
+                    android:textSize="28sp" />
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionFourPantSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_men_s"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_men_m"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_men_l"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_men_xl"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_men_xxl"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_thambi"
+                android:text="@string/question_four_part_one_men"
+                android:textColor="@color/colorTextHeader"
+                android:textSize="28sp" />
+
+            <RelativeLayout
+                android:id="@+id/linearLayoutWaistSizeMen"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionMenWaistSizeS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_s_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_s_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionMenWaistSizeM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_m_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_m_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionMenWaistSizeL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_l_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_l_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionMenWaistSizeXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_xl_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_xl_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+
+                </RadioGroup>
+
+
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionMenWaistSizeXXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_xxl_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_waist_size_xxl_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+
+                </RadioGroup>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_thambi"
+                android:text="@string/question_four_part_two_men"
+                android:textColor="@color/colorTextHeader"
+                android:textSize="28sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutInseam"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionInseamS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_inseam_s"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionInseamM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_inseam_m"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionInseamL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_inseam_l"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionInseamXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_inseam_xl"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionInseamXXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_inseam_xxl"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutWomenPantSize"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutQFourW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:text="@string/question_four_women"
+                    android:textColor="@color/colorTextHeader"
+                    android:textSize="28sp" />
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionFourPantSizeW"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_women_xs"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_women_s"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_women_m"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_women_l"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_women_xl"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_answ_women_xxl"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_thambi"
+                android:text="@string/question_four_part_one_women"
+                android:textColor="@color/colorTextHeader"
+                android:textSize="28sp" />
+
+            <RelativeLayout
+                android:id="@+id/linearLayoutWaistSizeWomen"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionWomenWaistSizeXS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_xs_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionWomenWaistSizeS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_s_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_s_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionWomenWaistSizeM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_m_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_m_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionWomenWaistSizeL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_l_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_l_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+
+                </RadioGroup>
+
+
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionWomenWaistSizeXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_xl_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+
+                </RadioGroup>
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionWomenWaistSizeXXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_women_waist_size_xxl_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_thambi"
+                android:text="@string/question_four_part_two_women"
+                android:textColor="@color/colorTextHeader"
+                android:textSize="28sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/linearLayoutWaistSize"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionHipsSizeXS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_xs_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionHipsSizeS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_s_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_s_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionHipsSizeM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_m_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_m_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_m_three"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionHipsSizeL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_l_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_l_two"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionHipsSizeXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_xl_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+
+                <RadioGroup
+                    android:id="@+id/rGQuestionHipsSizeXXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_selector"
+                        android:button="@android:color/transparent"
+                        android:padding="10dp"
+                        android:text="@string/question_four_hips_xxl_one"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/radio_color_text_selector"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

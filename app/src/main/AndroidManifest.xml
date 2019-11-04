@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="eccomerce.app.amazin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Done"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".PantMeasurements"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".QuestionOne"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".QuestionTwo"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".ShirtMeasurements"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+    <dist:module dist:instant="true" />
+
+</manifest>

@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Amazin</string>
+
+
+    <string name="question_gender">What is your gender?</string>
+    <string name="question_gender_m">MALE</string>
+    <string name="question_gender_f">FEMALE</string>
+
+    <string name="question_one">Which of these keywords do you identify with the most?</string>
+    <string name="question_one_answone">Casual, Comfortable, Simple</string>
+    <string name="question_one_answtwo">Professional, Refined, Sophisticated</string>
+    <string name="question_one_answthree">Eclectic, Unconventional, Unique</string>
+    <string name="question_one_answfour">Bold, Striking, Attention Grabbing</string>
+    <string name="question_one_answfive">Gentle, Soft, Sensitive</string>
+
+    <string name="question_two">Which description/s do you relate to the most?</string>
+    <string name="question_two_answone">I like to be casual and down to earth, I love comfort and easy to care for clothes</string>
+    <string name="question_two_answtwo">I am organised and practical and prefer to fill my wardrobe with versatile investment pieces</string>
+    <string name="question_two_answthree">I am spirited and self expressed and originality is key</string>
+    <string name="question_two_answfour">I am bold and like to stand out in a crowd and wear striking clothes that make a statement</string>
+    <string name="question_two_answfive">I am sensitive, gentle and supportive and love feminine details such as lace, gathers and frills</string>
+
+
+    //men shirt size
+    <string name="question_three">Please select your shirt size:</string>
+    <string name="question_three_part_one">Neck Size:</string>
+    <string name="question_three_part_two">Arm Length:</string>
+
+    <string name="question_three_answ_s">S</string>
+    <string name="question_three_answ_m">M</string>
+    <string name="question_three_answ_l">L</string>
+    <string name="question_three_answ_xl">XL</string>
+    <string name="question_three_answ_xxl">XXL</string>
+
+    //neck size
+    <string name="question_three_neck_size_s_one">14.5\"</string>
+    <string name="question_three_neck_size_s_two">15\"</string>
+    <string name="question_three_neck_size_s_three">15.5\"</string>
+
+    <string name="question_three_neck_size_m_one">15.5\"</string>
+    <string name="question_three_neck_size_m_two">16\"</string>
+    <string name="question_three_neck_size_m_three">16.5\"</string>
+
+    <string name="question_three_neck_size_l_one">16.5\"</string>
+    <string name="question_three_neck_size_l_two">17\"</string>
+    <string name="question_three_neck_size_l_three">17.5\"</string>
+
+    <string name="question_three_neck_size_xl_one">17.5\"</string>
+    <string name="question_three_neck_size_xl_two">18\"</string>
+
+    <string name="question_three_neck_size_xxl_one">18\"</string>
+    <string name="question_three_neck_size_xxl_two">18.5\"</string>
+
+
+    //arm length
+    <string name="question_three_arm_length_s_one">32/33\"</string>
+    <string name="question_three_arm_length_s_two">34/35\"</string>
+
+    <string name="question_three_arm_length_m_one">32/33\"</string>
+    <string name="question_three_arm_length_m_two">34/35\"</string>
+    <string name="question_three_arm_length_m_three">36/37\"</string>
+
+    <string name="question_three_arm_length_l_one">32/33\"</string>
+    <string name="question_three_arm_length_l_two">34/35\"</string>
+    <string name="question_three_arm_length_l_three">36/37\"</string>
+
+    <string name="question_three_arm_length_xl_one">34/35\"</string>
+    <string name="question_three_arm_length_xl_two">36/37\"</string>
+
+
+    <string name="question_three_arm_length_xxl_one">36/37\"</string>
+
+
+    //women shirt size
+
+    <string name="question_three_women">Please select your shirt size:</string>
+    <string name="question_three_part_one_women">Bust Size:</string>
+    <string name="question_three_part_two_women">Waist Size:</string>
+
+    <string name="question_three_answ_women_xs">XS</string>
+    <string name="question_three_answ_women_s">S</string>
+    <string name="question_three_answ_women_m">M</string>
+    <string name="question_three_answ_women_l">L</string>
+    <string name="question_three_answ_women_xl">XL</string>
+    <string name="question_three_answ_women_xxl">XXL</string>
+
+
+    //bust size
+    <string name="question_three_bust_size_xs_one">25\"</string>
+    <string name="question_three_bust_size_xs_two">27\"</string>
+    <string name="question_three_bust_size_xs_three">29\"</string>
+    <string name="question_three_bust_size_s_one">30\"</string>
+    <string name="question_three_bust_size_s_two">32\"</string>
+    <string name="question_three_bust_size_m_one">33\"</string>
+    <string name="question_three_bust_size_m_two">35\"</string>
+    <string name="question_three_bust_size_l_one">36\"</string>
+    <string name="question_three_bust_size_l_two">38\"</string>
+    <string name="question_three_bust_size_xl_one">39\"</string>
+    <string name="question_three_bust_size_xl_two">41\"</string>
+    <string name="question_three_bust_size_xxl_one">42\"</string>
+    <string name="question_three_bust_size_xxl_two">43\"</string>
+    <string name="question_three_bust_size_xxl_three">44\"</string>
+
+
+    //waist size
+    <string name="question_three_waist_size_xs_one">23.5\"</string>
+    <string name="question_three_waist_size_xs_two">24\"</string>
+    <string name="question_three_waist_size_xs_three">24.5\"</string>
+    <string name="question_three_waist_size_xs_four">25\"</string>
+    <string name="question_three_waist_size_xs_five">25.5\"</string>
+    <string name="question_three_waist_size_xs_six">26\"</string>
+
+    <string name="question_three_waist_size_s_one">26.5\"</string>
+    <string name="question_three_waist_size_s_two">27\"</string>
+    <string name="question_three_waist_size_s_three">27.5\"</string>
+    <string name="question_three_waist_size_s_four">28\"</string>
+    <string name="question_three_waist_size_s_five">28.5\"</string>
+
+    <string name="question_three_waist_size_m_one">29\"</string>
+    <string name="question_three_waist_size_m_two">29.5\"</string>
+    <string name="question_three_waist_size_m_three">30\"</string>
+    <string name="question_three_waist_size_m_four">30.5\"</string>
+    <string name="question_three_waist_size_m_five">31\"</string>
+
+    <string name="question_three_waist_size_l_one">31.5\"</string>
+    <string name="question_three_waist_size_l_two">32\"</string>
+    <string name="question_three_waist_size_l_three">32.5\"</string>
+    <string name="question_three_waist_size_l_four">33\"</string>
+    <string name="question_three_waist_size_l_five">33.5\"</string>
+    <string name="question_three_waist_size_l_six">34\"</string>
+
+    <string name="question_three_waist_size_xl_one">34.5\"</string>
+    <string name="question_three_waist_size_xl_two">35\"</string>
+    <string name="question_three_waist_size_xl_three">35.5\"</string>
+    <string name="question_three_waist_size_xl_four">36\"</string>
+    <string name="question_three_waist_size_xl_five">36.5\"</string>
+    <string name="question_three_waist_size_xl_six">37\"</string>
+
+    <string name="question_three_waist_size_xxl_one">37.5\"</string>
+    <string name="question_three_waist_size_xxl_two">38\"</string>
+    <string name="question_three_waist_size_xxl_three">38.5\"</string>
+    <string name="question_three_waist_size_xxl_four">39\"</string>
+    <string name="question_three_waist_size_xxl_five">39.5\"</string>
+
+
+    //men pant size
+
+    <string name="question_four_men">Please select your pant size:</string>
+    <string name="question_four_part_one_men">Waist Size:</string>
+    <string name="question_four_part_two_men">Inseam Size:</string>
+
+    <string name="question_four_answ_men_s">S</string>
+    <string name="question_four_answ_men_m">M</string>
+    <string name="question_four_answ_men_l">L</string>
+    <string name="question_four_answ_men_xl">XL</string>
+    <string name="question_four_answ_men_xxl">XXL</string>
+
+    //waist size
+    <string name="question_four_waist_size_s_one">28\"</string>
+    <string name="question_four_waist_size_s_two">30\"</string>
+    <string name="question_four_waist_size_m_one">32\"</string>
+    <string name="question_four_waist_size_m_two">34\"</string>
+    <string name="question_four_waist_size_l_one">36\"</string>
+    <string name="question_four_waist_size_l_two">38\"</string>
+    <string name="question_four_waist_size_xl_one">38\"</string>
+    <string name="question_four_waist_size_xl_two">40\"</string>
+    <string name="question_four_waist_size_xxl_one">42\"</string>
+    <string name="question_four_waist_size_xxl_two">44\"</string>
+
+    //inseam
+    <string name="question_four_inseam_s">31\"</string>
+    <string name="question_four_inseam_m">31\"</string>
+    <string name="question_four_inseam_l">32\"</string>
+    <string name="question_four_inseam_xl">33\"</string>
+    <string name="question_four_inseam_xxl">35\"</string>
+
+    //women pant size
+    <string name="question_four_women">Please select your pant size:</string>
+    <string name="question_four_part_one_women">Waist Size:</string>
+    <string name="question_four_part_two_women">Hips Size:</string>
+
+    <string name="question_four_answ_women_xs">XS</string>
+    <string name="question_four_answ_women_s">S</string>
+    <string name="question_four_answ_women_m">M</string>
+    <string name="question_four_answ_women_l">L</string>
+    <string name="question_four_answ_women_xl">XL</string>
+    <string name="question_four_answ_women_xxl">XXL</string>
+
+    //waist size
+
+    <string name="question_four_women_waist_size_xs_one">26\"</string>
+    <string name="question_four_women_waist_size_s_one">27\"</string>
+    <string name="question_four_women_waist_size_s_two">28\"</string>
+    <string name="question_four_women_waist_size_m_one">28\"</string>
+    <string name="question_four_women_waist_size_m_two">29\"</string>
+    <string name="question_four_women_waist_size_l_one">30\"</string>
+    <string name="question_four_women_waist_size_l_two">31\"</string>
+    <string name="question_four_women_waist_size_xl_one">32\"</string>
+    <string name="question_four_women_waist_size_xxl_one">33\"</string>
+
+    //Hips Size
+    <string name="question_four_hips_xs_one">35\"</string>
+    <string name="question_four_hips_s_one">36\"</string>
+    <string name="question_four_hips_s_two">37\"</string>
+    <string name="question_four_hips_m_one">37\"</string>
+    <string name="question_four_hips_m_two">38\"</string>
+    <string name="question_four_hips_m_three">39\"</string>
+    <string name="question_four_hips_l_one">39\"</string>
+    <string name="question_four_hips_l_two">40\"</string>
+    <string name="question_four_hips_xl_one">41\"</string>
+    <string name="question_four_hips_xxl_one">42\"</string>
+
+
+    <string name="btn_next">NEXT</string>
+    <string name="btn_finish">FINISH</string>
+    <string name="btn_close">CLOSE</string>
+    <string name="btn_start">START AGAIN</string>
+    <string name="done">DONE!</string>
+
+</resources>
